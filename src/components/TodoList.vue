@@ -6,7 +6,7 @@ import TodoGroup from "./TodoGroup.vue";
 <template>
   <div class="groups-wrapper">
     <TodoGroup :status="TodoStatus.Pending" />
-    <TodoGroup :status="TodoStatus.InProgress" />
+  
     <TodoGroup :status="TodoStatus.Completed" />
   </div>
 </template>
